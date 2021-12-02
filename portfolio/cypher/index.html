@@ -20,7 +20,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" property="og:description" content="This is meta description.">
+  <meta name="description" property="og:description" content="A serious game to learn about secret meetings">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Alois Ru">
   <meta name="generator" content="Hugo 0.70.0" />
@@ -36,8 +36,7 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <link rel="alternate" type="application/rss+xml" href="https://aaaaalois.github.io/portfolio/index.xml" title="Alois" />
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
 
   <!--Favicon-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -160,116 +159,149 @@
     </div>
 </div>
 
- 
 
-<section class="uk-margin-large-bottom">
-        <h1 class="uk-heading-large uk-text-center">Portfolio</h1>
-</section>
 
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
 
 
 <section>
-  <div class="uk-container uk-margin-xlarge-bottom">
-    <div uk-filter="target: .js-filter">
-      <ul class="uk-subnav uk-subnav-pill uk-subnav-divider">
-        <li uk-filter-control><a href="#">All</a></li>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Cypher</h1>
+    <p class="uk-text-center uk-text-lead">A serious game to learn about secret meetings</p>
+    <p class="uk-text-center">Published on Oct 27, 2021</p>
+    <p class="uk-text-center">Reading time: 0 minutes.</p>
+    
+
+    <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-text-center uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
+      
+
+    
+
+
+
+      <div>
         
-
-        <li uk-filter-control="[data-tags*='Team']">
-          <a href="#">Team</a>
-        </li>
-
-        
-
-        <li uk-filter-control="[data-tags*='Individual']">
-          <a href="#">Individual</a>
-        </li>
-
-        
-      </ul>
-
-      <ul
-        class="js-filter uk-child-width-1-1 uk-child-width-1-4@m uk-text-center"
-        uk-grid
-        uk-height-match="target: > li > div > .fixy"
-      >
-        
-        <li data-tags="Individual">
-          <div class="uk-card uk-card-default" style="position: relative;">
-            <div class="fixy">
-              <div class="uk-card-media-top">
-                <img
-                  class="contain experience"
-                  src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638450237/Portfolio-Ver1.0/Cypher/841633916927_.pic_hd_z2t9eu.png"
-                  alt=""
-                />
+        <div>
+          <button class="uk-button uk-button-default" type="button"> <span uk-icon="icon: github"></span> GitHub</button>
+          <div class="uk-width-auto" uk-dropdown="pos: bottom-center; delay-hide:400">
+            <div class="uk-dropdown-grid uk-child-width-1-2" uk-grid>
+              <div>
+                <ul class="uk-nav uk-dropdown-nav">
+                  
+                  <li><a style="color: #0366d6; font-weight: 600" href="https://github.com/AAAAAlois/Cypher"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  Cypher</a></li>
+                  
+                  <li><a style="color: #0366d6; font-weight: 600" href="https://aaaaalois.itch.io/cypher"> <span><img loading="lazy" src="https://res.cloudinary.com/samrobbins/image/upload/v1593092912/repo_ec3slk.svg"></span>  cypher</a></li>
+                  
+                </ul>
               </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">Cypher</h3>
-                <p>A serious game to learn about secret meetings</p>
-              </div>
-            </div>
 
-            <div class="uk-card-footer">
-              <a href="/portfolio/cypher/" class="uk-button uk-button-text"
-                >Read more</a
-              >
             </div>
           </div>
-        </li>
+        </div>
         
-        <li data-tags="Team">
-          <div class="uk-card uk-card-default" style="position: relative;">
-            <div class="fixy">
-              <div class="uk-card-media-top">
-                <img
-                  class="contain experience"
-                  src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638448848/Portfolio-Ver1.0/Mime/E7E56B0C0D611D4F83117721E4F6FB90_mgffqw.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">Mime</h3>
-                <p>A puzzle game with meta elements</p>
-              </div>
-            </div>
+      </div>
+    </div>
+    
 
-            <div class="uk-card-footer">
-              <a href="/portfolio/mime/" class="uk-button uk-button-text"
-                >Read more</a
-              >
-            </div>
-          </div>
-        </li>
-        
-        <li data-tags="Team">
-          <div class="uk-card uk-card-default" style="position: relative;">
-            <div class="fixy">
-              <div class="uk-card-media-top">
-                <img
-                  class="contain experience"
-                  src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638449624/Portfolio-Ver1.0/1.5/15271638449576_.pic_odnnxe.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">Do not exceed 1.5</h3>
-                <p>A reverse click game</p>
-              </div>
-            </div>
+    <hr class="full-width">
+    
 
-            <div class="uk-card-footer">
-              <a href="/portfolio/1.5/" class="uk-button uk-button-text"
-                >Read more</a
-              >
-            </div>
-          </div>
-        </li>
-        
-      </ul>
+    <div class="content">
+      <p><img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445162/Portfolio-Ver1.0/Cypher/cypher1_acqbae.jpg" alt="Page1">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445166/Portfolio-Ver1.0/Cypher/cypher2_qaumwk.jpg" alt="Page2">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445165/Portfolio-Ver1.0/Cypher/cypher3_tt3vtb.jpg" alt="Page3">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445170/Portfolio-Ver1.0/Cypher/cypher4_vw2zld.jpg" alt="Page4">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445170/Portfolio-Ver1.0/Cypher/cypher5_q8q53r.jpg" alt="Page5">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445164/Portfolio-Ver1.0/Cypher/cypher6_z0tang.jpg" alt="Page6">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445168/Portfolio-Ver1.0/Cypher/cypher7_jdmyd2.jpg" alt="Page7">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445167/Portfolio-Ver1.0/Cypher/cypher8_exmji7.jpg" alt="Page8">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445165/Portfolio-Ver1.0/Cypher/cypher9_qlqezd.jpg" alt="Page9">
+<img src="https://res.cloudinary.com/do0mrtmi0/image/upload/v1638445166/Portfolio-Ver1.0/Cypher/cypher10_ebcf7s.jpg" alt="Page10"></p>
+
     </div>
   </div>
+  </div>
 </section>
+
 
 
     </div>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Individual on Alois</title>
+    <link>https://aaaaalois.github.io/categories/individual/</link>
+    <description>Recent content in Individual on Alois</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 27 Oct 2021 23:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aaaaalois.github.io/categories/individual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cypher</title>
+      <link>https://aaaaalois.github.io/portfolio/cypher/</link>
+      <pubDate>Wed, 27 Oct 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://aaaaalois.github.io/portfolio/cypher/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
