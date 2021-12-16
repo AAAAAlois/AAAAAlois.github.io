@@ -38,5 +38,23 @@
       <description>     </description>
     </item>
     
+    <item>
+      <title>Signal</title>
+      <link>https://aaaaalois.github.io/portfolio/signal/</link>
+      <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://aaaaalois.github.io/portfolio/signal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unstable Alchemy</title>
+      <link>https://aaaaalois.github.io/portfolio/unstablealchemy/</link>
+      <pubDate>Tue, 17 Aug 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://aaaaalois.github.io/portfolio/unstablealchemy/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
